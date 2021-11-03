@@ -1,5 +1,5 @@
 import React from "react";
-import { createDrawerNavigator } from "react-navigation-drawer";
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeScreen from "../pages";
 
 const Drawer = createDrawerNavigator();
@@ -11,3 +11,5 @@ function Routes() {
         </Drawer.Navigator> 
     )
 }
+
+export default Routes;
